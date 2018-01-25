@@ -65,3 +65,33 @@ nav span {
 }
 
 /* Featured Tea Section */
+
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+title {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
+#featured .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.item h4 {
+  padding-top: 5px;
+}
