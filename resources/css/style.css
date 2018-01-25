@@ -7,6 +7,8 @@ body {
   text-align: center;
 }
 
+/* Header Section */
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -37,3 +39,29 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/* Mission Section */
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  padding-top: 70px;
+  text-align: center;
+  margin: auto;
+}
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Featured Tea Section */
