@@ -83,15 +83,62 @@ title {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 10px;
 }
 
 .item img {
   height: 200px;
   width: 300px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .item h4 {
-  padding-top: 5px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1000px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+
+.flex-container-locations {
+  display: flex;
+}
+
+.location {
+  opacity: 1.0;
+  margin: 5px 20px;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Contact */
+
+#contact {
+  height: 200px;
+  display: block;
+}
+
+/* Footer */
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify: content: left;
+}
+
+
+footer {
+  text-align: left;
+  width: 1200px;
 }
