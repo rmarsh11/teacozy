@@ -101,44 +101,48 @@ title {
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
-  width: 1000px;
-  padding: 20px;
-  margin-right: 20px;
-  margin-top: 70px;
   padding-top: 40px;
+  margin-top: 70px;
 }
 
 .flex-container-locations {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .location {
+  background-color: black;
+  flex-basis: 1;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 10px;
   opacity: 1.0;
   margin: 5px 20px;
-  background-color: black;
-  width: 300px;
-  height: 300px;
+  flex-basis: 280px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-/* Contact */
-
-#contact {
-  height: 200px;
-  display: block;
 }
 
 /* Footer */
 
-.copyright {
-  display: flex;
-  flex-direction: row;
-  justify: content: left;
+#contact {
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 200px;
+  padding-bottom: 20px;
 }
 
+#contact h5 {
+  padding-bottom: 20px;
+}
 
 footer {
   text-align: left;
-  width: 1200px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+footer h5 {
+  display: block;
+  margin: 1px 1px;
 }
